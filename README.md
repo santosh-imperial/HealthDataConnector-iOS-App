@@ -1,0 +1,1 @@
+iOS app developed for retrieving data from Apple health, running daily background tasks and calling the REST API to push daily health metrics. This is developed for Part 1 of Internet of Things and Applications Module Assignment. 
