@@ -1,0 +1,45 @@
+# macOS Files
+.DS_Store
+
+# Build artifacts and intermediate files
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.lock
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Swift Package Manager
+.build/
+*.xcodeproj/project.xcworkspace/
+
+# Xcode Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Other
+*.env
+.vscode/
+
+awsconfiguration.json

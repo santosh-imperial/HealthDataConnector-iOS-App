@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734A0EC02CF8F3D70048C18F /* AWSMobileClientXCF in Frameworks */ = {isa = PBXBuildFile; productRef = 734A0EBF2CF8F3D70048C18F /* AWSMobileClientXCF */; };
+		734A0EC22CF8F3D70048C18F /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 734A0EC12CF8F3D70048C18F /* AWSS3 */; };
+		734A0EC42CF8F64B0048C18F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 734A0EC32CF8F64B0048C18F /* awsconfiguration.json */; };
+		734A0EC62CF8FB2E0048C18F /* AWSCognitoIdentityProviderASF in Frameworks */ = {isa = PBXBuildFile; productRef = 734A0EC52CF8FB2E0048C18F /* AWSCognitoIdentityProviderASF */; };
+		73A8D6132CF242B200340C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8D6122CF242B200340C50 /* AppDelegate.swift */; };
+		73A8D6152CF242B200340C50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8D6142CF242B200340C50 /* SceneDelegate.swift */; };
+		73A8D6172CF242B200340C50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8D6162CF242B200340C50 /* ViewController.swift */; };
+		73A8D61A2CF242B200340C50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 73A8D6192CF242B200340C50 /* Base */; };
+		73A8D61D2CF242B200340C50 /* HealthDataConnector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73A8D61B2CF242B200340C50 /* HealthDataConnector.xcdatamodeld */; };
+		73A8D61F2CF242B300340C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A8D61E2CF242B300340C50 /* Assets.xcassets */; };
+		73A8D6222CF242B300340C50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 73A8D6212CF242B300340C50 /* Base */; };
+		73A8D62B2CF24B4C00340C50 /* HealthDataConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8D62A2CF24B4C00340C50 /* HealthDataConnector.swift */; };
+		73AC8D9A2D09E9EF0015EB44 /* HealthDataExportOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC8D992D09E9EF0015EB44 /* HealthDataExportOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		734A0EC32CF8F64B0048C18F /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		73A8D60F2CF242B200340C50 /* HealthDataConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthDataConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A8D6122CF242B200340C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73A8D6142CF242B200340C50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73A8D6162CF242B200340C50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73A8D6192CF242B200340C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73A8D61C2CF242B200340C50 /* HealthDataConnector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthDataConnector.xcdatamodel; sourceTree = "<group>"; };
+		73A8D61E2CF242B300340C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73A8D6212CF242B300340C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73A8D6232CF242B300340C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A8D6292CF2454100340C50 /* HealthDataConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthDataConnector.entitlements; sourceTree = "<group>"; };
+		73A8D62A2CF24B4C00340C50 /* HealthDataConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataConnector.swift; sourceTree = "<group>"; };
+		73AC8D992D09E9EF0015EB44 /* HealthDataExportOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataExportOperation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A8D60C2CF242B200340C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A0EC62CF8FB2E0048C18F /* AWSCognitoIdentityProviderASF in Frameworks */,
+				734A0EC22CF8F3D70048C18F /* AWSS3 in Frameworks */,
+				734A0EC02CF8F3D70048C18F /* AWSMobileClientXCF in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73A8D6062CF242B200340C50 = {
+			isa = PBXGroup;
+			children = (
+				73A8D6112CF242B200340C50 /* HealthDataConnector */,
+				73A8D6102CF242B200340C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73A8D6102CF242B200340C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73A8D60F2CF242B200340C50 /* HealthDataConnector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A8D6112CF242B200340C50 /* HealthDataConnector */ = {
+			isa = PBXGroup;
+			children = (
+				73A8D6292CF2454100340C50 /* HealthDataConnector.entitlements */,
+				73A8D6122CF242B200340C50 /* AppDelegate.swift */,
+				73A8D6142CF242B200340C50 /* SceneDelegate.swift */,
+				734A0EC32CF8F64B0048C18F /* awsconfiguration.json */,
+				73A8D6162CF242B200340C50 /* ViewController.swift */,
+				73A8D6182CF242B200340C50 /* Main.storyboard */,
+				73AC8D992D09E9EF0015EB44 /* HealthDataExportOperation.swift */,
+				73A8D61E2CF242B300340C50 /* Assets.xcassets */,
+				73A8D6202CF242B300340C50 /* LaunchScreen.storyboard */,
+				73A8D6232CF242B300340C50 /* Info.plist */,
+				73A8D61B2CF242B200340C50 /* HealthDataConnector.xcdatamodeld */,
+				73A8D62A2CF24B4C00340C50 /* HealthDataConnector.swift */,
+			);
+			path = HealthDataConnector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73A8D60E2CF242B200340C50 /* HealthDataConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A8D6262CF242B300340C50 /* Build configuration list for PBXNativeTarget "HealthDataConnector" */;
+			buildPhases = (
+				73A8D60B2CF242B200340C50 /* Sources */,
+				73A8D60C2CF242B200340C50 /* Frameworks */,
+				73A8D60D2CF242B200340C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthDataConnector;
+			packageProductDependencies = (
+				734A0EBF2CF8F3D70048C18F /* AWSMobileClientXCF */,
+				734A0EC12CF8F3D70048C18F /* AWSS3 */,
+				734A0EC52CF8FB2E0048C18F /* AWSCognitoIdentityProviderASF */,
+			);
+			productName = HealthDataConnector;
+			productReference = 73A8D60F2CF242B200340C50 /* HealthDataConnector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A8D6072CF242B200340C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					73A8D60E2CF242B200340C50 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 73A8D60A2CF242B200340C50 /* Build configuration list for PBXProject "HealthDataConnector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73A8D6062CF242B200340C50;
+			packageReferences = (
+				734A0EBE2CF8F3D70048C18F /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
+			productRefGroup = 73A8D6102CF242B200340C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A8D60E2CF242B200340C50 /* HealthDataConnector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73A8D60D2CF242B200340C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A0EC42CF8F64B0048C18F /* awsconfiguration.json in Resources */,
+				73A8D61F2CF242B300340C50 /* Assets.xcassets in Resources */,
+				73A8D6222CF242B300340C50 /* Base in Resources */,
+				73A8D61A2CF242B200340C50 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73A8D60B2CF242B200340C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A8D6172CF242B200340C50 /* ViewController.swift in Sources */,
+				73A8D6132CF242B200340C50 /* AppDelegate.swift in Sources */,
+				73A8D62B2CF24B4C00340C50 /* HealthDataConnector.swift in Sources */,
+				73AC8D9A2D09E9EF0015EB44 /* HealthDataExportOperation.swift in Sources */,
+				73A8D61D2CF242B200340C50 /* HealthDataConnector.xcdatamodeld in Sources */,
+				73A8D6152CF242B200340C50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73A8D6182CF242B200340C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A8D6192CF242B200340C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73A8D6202CF242B300340C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A8D6212CF242B300340C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73A8D6242CF242B300340C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73A8D6252CF242B300340C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A8D6272CF242B300340C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthDataConnector/HealthDataConnector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPM8H3H378;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthDataConnector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.HealthDataConnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73A8D6282CF242B300340C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthDataConnector/HealthDataConnector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPM8H3H378;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthDataConnector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.HealthDataConnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73A8D60A2CF242B200340C50 /* Build configuration list for PBXProject "HealthDataConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A8D6242CF242B300340C50 /* Debug */,
+				73A8D6252CF242B300340C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A8D6262CF242B300340C50 /* Build configuration list for PBXNativeTarget "HealthDataConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A8D6272CF242B300340C50 /* Debug */,
+				73A8D6282CF242B300340C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		734A0EBE2CF8F3D70048C18F /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.37.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		734A0EBF2CF8F3D70048C18F /* AWSMobileClientXCF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 734A0EBE2CF8F3D70048C18F /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSMobileClientXCF;
+		};
+		734A0EC12CF8F3D70048C18F /* AWSS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 734A0EBE2CF8F3D70048C18F /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSS3;
+		};
+		734A0EC52CF8FB2E0048C18F /* AWSCognitoIdentityProviderASF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 734A0EBE2CF8F3D70048C18F /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCognitoIdentityProviderASF;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		73A8D61B2CF242B200340C50 /* HealthDataConnector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73A8D61C2CF242B200340C50 /* HealthDataConnector.xcdatamodel */,
+			);
+			currentVersion = 73A8D61C2CF242B200340C50 /* HealthDataConnector.xcdatamodel */;
+			path = HealthDataConnector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 73A8D6072CF242B200340C50 /* Project object */;
+}

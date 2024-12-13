@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HealthDataConnector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvo-lw-3ht">
+                                <rect key="frame" x="105.00000000000001" y="143" width="182.33333333333337" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="DT4-TR-5BC"/>
+                                    <constraint firstAttribute="width" constant="183" id="pXn-WF-L7g"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Export Health Data"/>
+                                <connections>
+                                    <action selector="exportButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53v-S9-rHn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWM-lK-eVJ">
+                                <rect key="frame" x="99.000000000000014" y="280" width="193.33333333333337" height="0.0"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="0Od-eF-9Hv">
+                                <rect key="frame" x="-17" y="455" width="392" height="35"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Start Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="289-DU-ntx">
+                                <rect key="frame" x="82" y="426" width="178" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="End Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5P-mf-87I">
+                                <rect key="frame" x="105" y="532" width="132" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="YwN-Zw-BRP">
+                                <rect key="frame" x="-8" y="561" width="375" height="34"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YwN-Zw-BRP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4rQ-aq-D7T"/>
+                            <constraint firstItem="289-DU-ntx" firstAttribute="top" secondItem="fWM-lK-eVJ" secondAttribute="bottom" constant="126" id="8DL-Z9-hGz"/>
+                            <constraint firstItem="fWM-lK-eVJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="983-yJ-gMT"/>
+                            <constraint firstItem="YwN-Zw-BRP" firstAttribute="top" secondItem="n5P-mf-87I" secondAttribute="bottom" constant="0.33000000000000002" id="CzG-32-2Ec"/>
+                            <constraint firstItem="YwN-Zw-BRP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EpW-en-HZc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qvo-lw-3ht" secondAttribute="trailing" constant="105" id="FCp-xC-wUb"/>
+                            <constraint firstItem="Qvo-lw-3ht" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="OH1-9R-xvM"/>
+                            <constraint firstItem="0Od-eF-9Hv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Pqb-6V-Omt"/>
+                            <constraint firstItem="fWM-lK-eVJ" firstAttribute="top" secondItem="Qvo-lw-3ht" secondAttribute="bottom" constant="80" id="Qye-QY-Suq"/>
+                            <constraint firstItem="n5P-mf-87I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="161" id="TQW-IF-Qsr"/>
+                            <constraint firstItem="0Od-eF-9Hv" firstAttribute="top" secondItem="289-DU-ntx" secondAttribute="bottom" constant="8" symbolic="YES" id="Wg6-1s-6CU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n5P-mf-87I" secondAttribute="trailing" constant="162" id="ceT-90-hdn"/>
+                            <constraint firstItem="n5P-mf-87I" firstAttribute="top" secondItem="0Od-eF-9Hv" secondAttribute="bottom" constant="34" id="dHG-af-zg4"/>
+                            <constraint firstItem="Qvo-lw-3ht" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="eMe-NM-EBQ"/>
+                            <constraint firstItem="0Od-eF-9Hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ew8-Mc-IYc"/>
+                            <constraint firstItem="289-DU-ntx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="nwo-cK-Tgy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="289-DU-ntx" secondAttribute="trailing" constant="161" id="wQZ-SR-FMO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fWM-lK-eVJ" secondAttribute="trailing" constant="100" id="xSE-xl-Z20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="endDatePicker" destination="YwN-Zw-BRP" id="2bd-zJ-JPM"/>
+                        <outlet property="startDatePicker" destination="0Od-eF-9Hv" id="5Hi-o6-zuG"/>
+                        <outlet property="statusLabel" destination="fWM-lK-eVJ" id="kNK-wL-1PQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.48091603053435" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
